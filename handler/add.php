@@ -12,7 +12,7 @@ if (
     $status = Client::add($client, $conn);
 
     if ($status) {
-        echo 'Success';
+        echo "Success";
     } else {
         echo "Failed";
     }
